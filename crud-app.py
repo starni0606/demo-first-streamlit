@@ -18,8 +18,8 @@ gc = init_connection()
 # ==========================================
 # 2. 開啟指定的試算表與工作表
 # ==========================================
-SHEET_INPUT = "試算表網址"
-WORKSHEET_NAME = "工作表1"
+SHEET_INPUT = "https://docs.google.com/spreadsheets/d/1XApseBNGm2BitwEr416M2CcM3qyZeCGYbYSipvJROTk/edit?usp=sharing"
+WORKSHEET_NAME = "大一下程式第二節"
 
 try:
     if SHEET_INPUT.startswith("http://") or SHEET_INPUT.startswith("https://"):
